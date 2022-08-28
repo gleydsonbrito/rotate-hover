@@ -1,0 +1,42 @@
+body {
+  background-color: #180A0A;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 200px;
+  height: 50px;
+  margin-bottom: 50px;
+  animation-name: show-logo;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+}
+
+@keyframes show-logo {
+  from {width: 20px; height: 5px;}
+  to {width: 200px; height: 50px;}
+}
+
+.container {
+  width: 500px;
+  height: 300px;
+  cursor: pointer;
+  overflow: hidden;
+  
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  transition: 3s;
+  filter: grayscale(0.8);
+}
+
+.img:hover {
+  transform: scale(1.3) rotate(10deg);
+  filter: grayscale(0)
+}

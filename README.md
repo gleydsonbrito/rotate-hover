@@ -2,6 +2,8 @@
 
 ## creater a simple rotate hover effect
 
+## check it out https://gleydsonbrito.github.io/rotate-hover/
+
 ```
 .img {
   width: 100%;
